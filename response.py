@@ -43,7 +43,7 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
 
     # ---
     # default fallback
-    return generate_response_from_directory('default')
+    # return generate_response_from_directory('default')
 
 
 # -----------------------------------------------------------------------------------------------------------------
