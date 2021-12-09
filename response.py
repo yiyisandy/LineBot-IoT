@@ -31,7 +31,7 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
         elif message == 'guess':
             user.state = 100
             return generate_response_from_directory('guess')
-        return generate_response_from_directory(message)  # should remove this
+        # return generate_response_from_directory(message)  # should remove this
 
     # Guess number
     elif user.state == 100:
