@@ -28,18 +28,18 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
     elif user.state == 1:
         if message == 'temperature':
            return generate_response_from_directory('temperature', mqtt_listener.temperature, mqtt_listener.last_updated)
-        # elif message == 'guess':
-        #   user.state = 100
-        #   return generate_response_from_directory('guess')
-        # return generate_response_from_directory(message)  # should remove this
+        elif message == 'guess':
+            user.state = 100
+            return generate_response_from_directory('guess')
+        return generate_response_from_directory(message)  # should remove this
 
     # Guess number
-    # elif user.state == 100:
-    #     user.state = 1
-    #     if message == '48763':
-    #         return generate_response_from_directory('guess_correct')
-    #     else:
-    #         return generate_response_from_directory('guess_wrong')
+    elif user.state == 100:
+        user.state = 1
+        if message == '48763':
+            return generate_response_from_directory('guess_correct')
+        else:
+            return generate_response_from_directory('guess_wrong')
 
     # ---
     # default fallback
