@@ -3,7 +3,6 @@
   "altText": "this is a buttons template",
   "template": {
     "type": "buttons",
-    "thumbnailImageUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
     "imageAspectRatio": "square",
     "title": "標題",
     "text": "文字",
