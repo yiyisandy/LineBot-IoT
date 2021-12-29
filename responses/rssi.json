@@ -1,1 +1,4 @@
-
+{
+  "type": "text",
+  "text": "RSSI is {0}"
+}
