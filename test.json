@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dark-axe-336605",
+  "private_key_id": "a0f41eacd3c936490c46e45c4a675a1d4e25727b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDBCYKsl35F44pD\nHxjsgvammVo8AEAKq+1Xw69K0JyxM9mjw2nQmFy/lJLfl58yKflR12d1pUD57IH1\nqCRCVvzpVocQxUc5/rtgtndrbU5XYKbXhXwV+M9izekmrd2K9en8qivvcvQQhVsY\nyGXjwIhgW7Z6+w++gV2QWwDUESAGsyWLSII4hgtUYLuTpBckFb02TSgp91AA9cgg\np9vS4NLGlj5Tl2U6C5LhnfpVtSyRAxlALGVmXvCsftzk3N12ksNiOlsZWqBKeRey\n9ga8g8injCG5CfeD7gO12b7sGxMNdT7+xaVQLPjCur3C7VDYJL0Dp1CGo6Z/GQFK\nJpjjzDuTAgMBAAECggEAU3l9XI0WObqvq17jNENdzaU68/9XskWumOkyADQ9zhMR\n5lM2itGYKfBhova6DMNB4TY4sxMHCgxQFp7jLxzWuUCFn6bvqhCRjrzY30ehPP+6\npjA+/HFfnOZWEDfXOaQlzvD3ltAq4ooIXqsqBFbZonGGc5/lqwfeIfJ4ZTwSkVJe\nfk9nV4uOCup1jhvI/eU4e7JBUKnObIe51IK8wK2lXd4kVEXAoRmGc/6ts0Z2QZeO\nGkNA6pMjtckxVomcbTyuzMDjqKQHZPLfUg0uXsbfC9Cc8hPZV6lUlGxMvi1Zp8n2\nHAccPrjFll8wECotoBUEge8WjMzORPvSMKz8fXAo4QKBgQDhcU25xydp9ZEtbxt6\nVZV/rZ2UL1eJSaoowLy1CWSnCzeQFCz7fBQtkNP+l9lyKxFf3prpUhUyfMlu0Q4H\nhwsghyEVvDAfQ8jcM3lhe78ttRpbWAZ2kcz3tPUGpCTAa/X+f4cVY/2+wBmpcSwU\n72lxMltsAmbP8jNJZtFqWOkNJQKBgQDbM8Le7UdPeK1elkRm9CrWXeqJlSKoMuwH\nwoT+NyBEV7hqFGYkKTBPC0uvMeo9V7EMpoiH/IxjFmhd7bKNm8Om9kX2nfRpv3NP\nb1TAURa35rRTDid/QINKGYcpbR+yOkT9KfXTHOHT3vWSWyEKrQ1+H6wATbghlO+g\nSfT8cNR0VwKBgCoh2rzVk3AiDLfJBAGg7QenksOW9W0a70oeeyX6U21Ek2XB34ZA\nciTx5Cy4hFLp6Z1ZJOpmBMAiwiKLv2t4uYOivXQqb3PoXymIFS86yUfpiLt5f/u4\n0+2XTBOpqZSsmJSvkLdWsJ1tmV4pYGupMrONDbjp2f0S7rLRHGIbq7JhAoGAXLLY\nDzRi+s2664w6oxtQ3lTbMZG7FUxrmqB9Y5BmeeBq4Zl81IACqPrK5+0A9S4XdpUa\nmf+IUwMP4eD6qH4d0IbHcZK84NeQ6R/YxHfGVsEesx0CQQNEQlrnWPKH+/Q+Zp2P\nEtdc/R+F1H3rTDuAwDyenYZAfxsf9zYvf24ruoMCgYAv2xmn18p+IZqgnvqhWyfv\npiGhHRH8u5ahPEI8G/RsPQs1FNKuMH4r6wawwwjWauX7cy2P4PhKl0a3b57puELY\njLPl4yF18WXK6BY2spdwC/jR23gHF5d96LbjEFpr2VYbaZBe/EtbNOfNLWVrzXek\nKqEux1fcuTjnd65JYghAjg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "line-bot-bike@dark-axe-336605.iam.gserviceaccount.com",
+  "client_id": "102612703142086420835",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/line-bot-bike%40dark-axe-336605.iam.gserviceaccount.com"
+}
