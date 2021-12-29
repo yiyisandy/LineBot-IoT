@@ -1,5 +1,5 @@
 import random
-
+import pygsheets
 from linebot.models import *
 
 import mqtt_listener
@@ -21,7 +21,19 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
     
     
     if message == 'read':
-        return generate_response_from_directory('guess')
+         gc = pygsheets.authorize(service_file='googlesheet.json')
+
+        sht = gc.open_by_url(
+        'https://docs.google.com/spreadsheets/d/1DflljkJf-o_dZy9Td-3c03_bAfocSfRWbgjT3t9C1ig/'
+        )
+        wks_list = sht.worksheets()
+        #print(wks_list)
+        wks = sht[0]
+        A1 = wks.cell('E1')
+        A1.value
+        #print(A1.value)
+
+#print(A1.value)
 """
     # Init
     if user.state == 0:
