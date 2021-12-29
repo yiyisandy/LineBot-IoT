@@ -31,7 +31,7 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
         wks = sht[0]
         A1 = wks.cell('E1')
         A1.value
-        #print(A1.value)
+        print(A1.value)
         return generate_response_from_directory('rssi', A1.value)
 
 #print(A1.value)
