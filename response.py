@@ -18,7 +18,11 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
     attachment_path: abs path of attachment, may be empty
     attachment_ext: extension of attachment (possible values: jpg, mp4, m4a, (empty))
     """
-
+    
+    
+    if message == 'read':
+        return generate_response_from_directory('guess')
+"""
     # Init
     if user.state == 0:
         user.state = 1
@@ -45,7 +49,7 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
     # default fallback
     # return generate_response_from_directory('default')
 
-
+"""
 # -----------------------------------------------------------------------------------------------------------------
 
 
