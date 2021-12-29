@@ -23,7 +23,9 @@ def make_response(user: User, message: str, attachment_path: str, attachment_ext
     if message == 'read':
          gc = pygsheets.authorize(service_file='googlesheet.json')
 
-        sht = gc.open_by_url('https://docs.google.com/spreadsheets/d/1DflljkJf-o_dZy9Td-3c03_bAfocSfRWbgjT3t9C1ig/')
+        sht = gc.open_by_url(
+            'https://docs.google.com/spreadsheets/d/1DflljkJf-o_dZy9Td-3c03_bAfocSfRWbgjT3t9C1ig/'
+        )
         wks_list = sht.worksheets()
         #print(wks_list)
         wks = sht[0]
